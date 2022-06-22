@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fernando</title>
+    </head>
+    <body>
+        <h1>Questão 1</h1>
+        <input type="text" name="largura" id="largura" placeholder="Insira a largura">
+        <input type="text" name="comprimento" id="comprimento" placeholder="Insira a comprimento">
+        <button onClick="calcularArea()">Calcular</button><br>
+        <input type="text" id="resultado">
+        <hr>
+        <a href="pagina2.html">Visite a pagina 2</a>
+    </body>
+    <script>
+        function calcularArea(){
+            var largura = document.getElementById('largura').value;
+            var comprimento = document.getElementById('comprimento').value;
+            var area = largura * comprimento;
+            document.getElementById('resultado').value = "A area é "+area;
+        }
+    </script>
+</html>
