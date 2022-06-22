@@ -1,0 +1,46 @@
+body{
+    background: #eee;
+}
+#linha_inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0f0;
+    height: 83vh;
+}
+#img{
+    height: 70%;
+    width: 23rem;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+#img img{
+    width: 100%;
+}
+#login{
+    height: 70%;
+    width: 23rem;
+    margin: 0 1rem;
+}
+
+#crendenciais{
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+    background: #fff;
+    height: 65%;
+    margin-bottom: 5%;
+}
+#crendenciais img{
+    display: block;
+    margin: 2rem auto;
+    width: 10rem;
+}
+#criar_conta{
+    border: 1px solid #f00;
+    height: 12%;
+}
+#app{
+    border: 1px solid #f00;
+    height: 18%;
+}
