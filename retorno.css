@@ -1,0 +1,50 @@
+body{
+    background-color: darkblue;
+    color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.centro{
+    text-align: center;
+}
+
+.caracteristicas{
+    /* border: 1px solid white; */
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+#margem{
+    text-align: center;
+}
+
+#rodape{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+    height: 5em;
+    transition: background-color 5s, color 7s;
+}
+#rodape:hover{
+    background-color: azure;
+    color: black;
+}
+
+/* .centro a{
+    border: 1px dashed black;
+    padding: 3px;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+} */
+#links{
+    margin-bottom: 20px;
+}
